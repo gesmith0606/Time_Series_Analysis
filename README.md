@@ -10,12 +10,12 @@ Based on my time series analysis I would not buy the yen now. Although the price
 The risk of the yen is expected to increase over the next 5 days. We can determine this by looking at the 5 day forecast of viotility. However higher volatility leads to more risk which can lead to higher returns.
  Based on the model evaluation I would not feel confident using these models for trading. Both models have p scores larger than .05 showing no statistical significants. 
  
- #regression_analysis
- I used Regression Analysis to determine Seasonal Effects with SKlearn Linear Regression 
- I first trimmed the data to begin on January first 1990 
- I then calculated a percentage change and lagged return 
- I then train, tested and split my data 
- I then made both out of sample and in sample predicitions using the testing data 
+ # regression_analysis
+I used Regression Analysis to determine Seasonal Effects with SKlearn Linear Regression 
+I first trimmed the data to begin on January first 1990 
+I then calculated a percentage change and lagged return 
+I then train, tested and split my data 
+I then made both out of sample and in sample predicitions using the testing data 
  # Conclusions
- I determined This model performs better on the out of sample data. We can infer this because the RMSE .41 for the out of sample data and .57 for the in smaple data. 
+I determined This model performs better on the out of sample data. We can infer this because the RMSE .41 for the out of sample data and .57 for the in smaple data. 
  
